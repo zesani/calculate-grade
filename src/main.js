@@ -5,6 +5,9 @@ import App from './App'
 import Vuetify from 'vuetify'
 import VueRouter from 'vue-router'
 import InputGrade from './components/InputGrade'
+import VueLocalStorage from 'vue-localstorage'
+
+Vue.use(VueLocalStorage)
 Vue.use(Vuetify)
 Vue.use(VueRouter)
 const routes = [

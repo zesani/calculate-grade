@@ -3973,6 +3973,10 @@ vue-loader@^10.0.0:
     vue-style-loader "^1.0.0"
     vue-template-es2015-compiler "^1.2.2"
 
+vue-router@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-2.1.1.tgz#10c31bbdcb6da92bd3e0223fa12345e73018625a"
+
 vue-style-loader@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/vue-style-loader/-/vue-style-loader-1.0.0.tgz#abeb7bd0f46313083741244d3079d4f14449e049"
@@ -3993,6 +3997,10 @@ vue-template-es2015-compiler@^1.2.2:
 vue@^2.1.0:
   version "2.1.6"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.1.6.tgz#2fc0024c07479ac6bc7d34a2cd5ef9ca5e90b143"
+
+vuetify@^0.7.6:
+  version "0.7.7"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-0.7.7.tgz#d50fc5953f8150d9fc92b44e414aa450bdbe1e60"
 
 watchpack@^0.2.1:
   version "0.2.9"

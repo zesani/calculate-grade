@@ -5,8 +5,8 @@
         <div class="content">
           <p class="title">กรอกเกรด</p>
           <p class="title">Grade: {{totalGrades}}</p>
-          <div class="content" v-for="subject in subjects">
-            <input-form :subject="subject" :set-grade="setGrade"></input-form>
+          <div class="content" v-for="(subject, index) in subjects">
+            <input-form :subject="subject" :index="index" :set-grade="setGrade" :remove-subject="removeSubject"></input-form>
           </div>
           <a class="button is-primary" @click="addSubject">
             Add
@@ -20,7 +20,7 @@
 <script>
 import InputForm from './InputForm'
 export default {
-  props: ['addSubject', 'subjects', 'setGrade', 'totalGrades'],
+  props: ['addSubject', 'subjects', 'setGrade', 'totalGrades', 'removeSubject'],
   components: {
     InputForm
   }
